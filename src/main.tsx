@@ -1,6 +1,6 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import {createRoot} from 'react-dom/client';
-import {BookOpen,BriefcaseBusiness,CalendarDays,Check,ChevronRight,Download,Droplets,GraduationCap,HeartPulse,Leaf,Menu,Minus,Plus,Search,ShieldCheck,ShoppingBag,Sparkles,UtensilsCrossed,Wallet,X} from 'lucide-react';
+import {BookOpen,BriefcaseBusiness,Check,ChevronRight,Download,Droplets,GraduationCap,HeartPulse,Leaf,Menu,Minus,Search,ShieldCheck,ShoppingBag,Sparkles,UtensilsCrossed,Wallet,X} from 'lucide-react';
 import './styles.css';
 
 type Category='health'|'hydration'|'nutrition'|'student'|'financial'|'professional';
